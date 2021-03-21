@@ -1,0 +1,29 @@
+/* <!--
+Code Borrowed from: http://bootdey.com/
+Author: Awais Akram
+Creation Date: 21.03.2021
+--> */
+body {
+  background: #ddd;
+  text-align: center;
+}
+
+.form-control-borderless {
+  border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.img-fluid.customWidth {
+  width: 40%;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: center;
+}
